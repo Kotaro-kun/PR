@@ -150,6 +150,7 @@ footer span{
 
 @media(min-width:576px){
 	body{
+		min-height:100%;
 		background-color:red;	
 	}
 	#about{
@@ -163,9 +164,13 @@ footer span{
 	}
 	header{
 		margin-top:5px;
-		width:80%;
-		margin-left:10%;
+		width:92%;
+		margin-left:4%;
 		border:1px solid #77d;
+	}
+	#content{
+		width:92%;
+		margin-left:4%;
 	}
 	#bannerBlock{
 		width:100%;
@@ -179,6 +184,8 @@ footer span{
 		margin-top:10px;
 	}
 	#read{
+	width:92%;
+	margin-left:4%;
 	border:1px solid #77d;	
 	}
 }
@@ -187,33 +194,44 @@ footer span{
 		background-color:yellow;
 	}
 	#about{
+		font-size:2em;
 		padding-top:2%;
 		padding-bottom:2%;
-		margin-top:1px;
+		margin-top:10px;
 		float:left;
 		height:15%;
 		width:100%;
 		border:1px solid #77d;
 	}
 	header{
+		font-size:1.2em;
 		margin-top:5px;
-		width:80%;
-		margin-left:10%;
+		width:92%;
+		margin-left:4%;
 		border:1px solid #77d;
 	}
 	#bannerBlock{
 		width:100%;
-		margin-top:5px;
+		margin-top:15px;
 		}
 	#bannerBlock div{
 		border:1px solid #77d;
-		min-height:87px;
-	}
+		min-height:180px;
+		font-size:2em;
+		margin-top:20px;
+		}
 	footer{
-		margin-top:10px;
+		border:1px solid #77d;
+		font-size:2em;
+		width:92%;
+		margin-left:4%;
+		margin-top:20px;
+		margin-bottom:20px;
 	}
 	#read{
 	border:1px solid #77d;	
+	width:92%;
+	margin-left:4%;
 	}
 }
 @media(min-width:992px){
