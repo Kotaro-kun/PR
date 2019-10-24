@@ -76,26 +76,13 @@ footer span{
 	width:80%;
 	height:80%;
 	margin-left:10%;
-	margin-top:1%;
 }
-#about,#bannerBlock{
+#bannerBlock{
 	height:80%;
-}
-#about{
-	margin-top:5%;
-	float:left;
-	width:35%;
-	background-color:#d2d2d2;
-	border:2px solid #77b;
-	border-radius:4px;
-}
-#about span {
-	font-family:Segoe UI;
-	padding-left:2%;
 }
 #bannerBlock{
 	float:right;
-	width:60%;
+	width:100%;
 	margin-top:4%;
 }
 #bannerBlock div{
@@ -148,4 +135,26 @@ footer span{
 	float:left;
 }
 /*Оптимизация*/
-
+@media(min-width:576px){
+	
+}
+@media(min-width:728px){
+	header,footer{
+		width:92%;
+		margin-left:4%;
+		font-size:1.7em;
+	}
+	#read{
+		font-size:1.3em;
+		margin-left:4%;
+		width:92%;
+	}
+	#content{
+		width:92%;
+		margin-left:4%;
+	}
+	#bannerBlock div {
+		font-size:1.9em;
+		height:27%;
+	}
+}
