@@ -19,7 +19,7 @@ a{
 }
 /*Стили для шапки и футера*/
 footer,header{
-	
+	font-size:1em;
 	min-width:560px;
 	width:80%;
 	margin-left:10%;
@@ -54,10 +54,11 @@ header a:hover{
 	display:block;
 }
 footer,#page-wrap:after{
+	
 	height:10px;
 }
 #page-wrap{
-	
+	height:94%;
 	margin-bottom:-5px;
 }
 footer{
@@ -148,99 +149,3 @@ footer span{
 }
 /*Оптимизация*/
 
-@media(min-width:576px){
-	body{
-		min-height:100%;
-		background-color:red;	
-	}
-	#about{
-		padding-top:2%;
-		padding-bottom:2%;
-		margin-top:1px;
-		float:left;
-		height:15%;
-		width:100%;
-		border:1px solid #77d;
-	}
-	header{
-		margin-top:5px;
-		width:92%;
-		margin-left:4%;
-		border:1px solid #77d;
-	}
-	#content{
-		width:92%;
-		margin-left:4%;
-	}
-	#bannerBlock{
-		width:100%;
-		margin-top:5px;
-		}
-	#bannerBlock div{
-		border:1px solid #77d;
-		min-height:87px;
-	}
-	footer{
-		margin-top:10px;
-	}
-	#read{
-	width:92%;
-	margin-left:4%;
-	border:1px solid #77d;	
-	}
-}
-@media(min-width:768px){
-	body{
-		background-color:yellow;
-	}
-	#about{
-		font-size:2em;
-		padding-top:2%;
-		padding-bottom:2%;
-		margin-top:10px;
-		float:left;
-		height:15%;
-		width:100%;
-		border:1px solid #77d;
-	}
-	header{
-		font-size:1.2em;
-		margin-top:5px;
-		width:92%;
-		margin-left:4%;
-		border:1px solid #77d;
-	}
-	#bannerBlock{
-		width:100%;
-		margin-top:15px;
-		}
-	#bannerBlock div{
-		border:1px solid #77d;
-		min-height:180px;
-		font-size:2em;
-		margin-top:20px;
-		}
-	footer{
-		border:1px solid #77d;
-		font-size:2em;
-		width:92%;
-		margin-left:4%;
-		margin-top:20px;
-		margin-bottom:20px;
-	}
-	#read{
-	border:1px solid #77d;	
-	width:92%;
-	margin-left:4%;
-	}
-}
-@media(min-width:992px){
-	body{
-		background-color:green;
-	}
-}
-@media(min-width:1200px){
-	body{
-		background-color:blue;
-	}
-}
