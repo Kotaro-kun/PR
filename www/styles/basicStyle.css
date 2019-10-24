@@ -1,0 +1,139 @@
+﻿/*Стили для всего документа*/
+html{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-color:#f2f2f2;
+} 
+a{
+	text-decoration:none;
+}
+/*Стили для шапки и футера*/
+footer,header{
+	width:80%;
+	margin-left:10%;
+	background-color:#d2d2d2;
+	border:2px solid #77b;
+	border-radius:4px;
+	float:left;
+}
+header{
+	height:15%;
+}
+header span{
+	margin-left:2%;
+	font-size:1.4em;
+	font-family:Comic Sans MS;
+}
+header a{
+	float:left;
+	margin-left:2%;
+	color:#66d;
+	border-radius:4px;
+}
+header a:hover{
+	transition:0.8s ease ;
+	background-color:#c2c2c2;
+	color:#00aaaa;
+}
+/*"Разрыватель шапки и футера"*/
+#page-wrap:after{
+	content:"";
+	display:block;
+}
+footer,#page-wrap:after{
+	height:10px;
+}
+#page-wrap{
+	height:90%;
+	margin-bottom:-5px;
+}
+footer{
+	height:10%;
+}
+footer span{
+	font-size:1em;
+	font-family:;
+}
+/*Стили для "центра"*/
+#content{
+	float:left;
+	width:80%;
+	height:80%;
+	margin-left:10%;
+	margin-top:1%;
+}
+#about,#bannerBlock{
+	height:80%;
+}
+#about{
+	margin-top:5%;
+	float:left;
+	width:35%;
+	background-color:#d2d2d2;
+	border:2px solid #77b;
+	border-radius:4px;
+}
+#about span {
+	font-family:Segoe UI;
+	padding-left:2%;
+}
+#bannerBlock{
+	float:right;
+	width:60%;
+	margin-top:4%;
+}
+#bannerBlock div{
+	height:22%;
+	margin-top:2%;
+	border:2px solid #77b;
+	border-radius:4px;
+	background-color:#d2d2d2;
+	
+}
+#bannerBlock div a{
+	font-size:1em;
+	font-family:comic sans ms;
+	float:right;
+	padding:2%;
+	border-radius:4px;
+	color:#66d;
+	}
+#bannerBlock div a:hover{
+	background-color:#c2c2c2;
+	color:#00aaaa;
+	transition:0.8s ease ;
+}
+#bannerBlock div a:active{
+	color:#aa0000;
+}
+#bannerBlock div span{
+	margin-left:10px;
+	font-size:1.3em;
+	font-family:Segoe UI;
+}
+#read{
+	float:left;
+	margin-top:2%;
+	min-height:77%;
+	margin-bottom:2%;
+	width:80%;
+	margin-left:10%;
+	border:2px solid #77b;
+	border-radius:4px;
+	background-color:#d2d2d2;
+	}
+#read span {
+	text-align:left;
+	margin-left:10px;
+}
+.left{
+	float:left;
+}
