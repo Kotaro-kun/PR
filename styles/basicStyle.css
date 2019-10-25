@@ -182,12 +182,12 @@ header,footer{
 	#bannerBlock div {
 		font-size:34px;
 		height:27%;
-		min-height:140px
+		min-height:160px
 	}
 }
 @media(min-width:1024px){
 	header{
-	min-height:120px;
+	max-height:130px;
 	}
 	header,footer{
 		width:92%;
