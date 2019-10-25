@@ -58,10 +58,11 @@ footer,#page-wrap:after{
 	height:10px;
 }
 #page-wrap{
-	height:94%;
+	height:100%;
 	margin-bottom:-5px;
 }
 footer{
+	margin-top:10px;
 	height:5%;
 	min-height:30px;
 }
@@ -158,3 +159,4 @@ footer span{
 		height:27%;
 	}
 }
+@media
