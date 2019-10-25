@@ -62,11 +62,10 @@ footer,#page-wrap:after{
 	margin-bottom:-5px;
 }
 footer{
-	pos:absolute;
-	bottom:0;
-	margin-top:10px;
+	margin-top:6%;
 	height:5%;
 	min-height:30px;
+	
 }
 footer span{
 	font-size:1em;
@@ -74,6 +73,7 @@ footer span{
 }
 /*Стили для "центра"*/
 #content{
+	margin-top:-20px;
 	min-width:560px;
 	float:left;
 	width:80%;
@@ -142,7 +142,7 @@ footer span{
 header,footer{
 		width:92%;
 		margin-left:4%;
-		font-size:21px;
+		font-size:25px;
 	}
 	#read{
 		font-size:1.3em;
@@ -154,14 +154,14 @@ header,footer{
 		margin-left:4%;
 	}
 	#bannerBlock div {
-		font-size:24px;
+		font-size:20px;
 		height:27%;
 	}}
 @media(min-width:728px){
 	header,footer{
 		width:92%;
 		margin-left:4%;
-		font-size:28px;
+		font-size:32px;
 	}
 	#read{
 		font-size:1.3em;
@@ -173,7 +173,7 @@ header,footer{
 		margin-left:4%;
 	}
 	#bannerBlock div {
-		font-size:24px;
+		font-size:29px;
 		height:27%;
 	}
 }
@@ -181,10 +181,10 @@ header,footer{
 	header,footer{
 		width:92%;
 		margin-left:4%;
-		font-size:30px;
+		font-size:20px;
 	}
 	#read{
-		font-size:1.1em;
+		font-size:23px;
 		margin-left:4%;
 		width:92%;
 	}
