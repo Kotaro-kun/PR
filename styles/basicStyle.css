@@ -168,7 +168,7 @@ header,footer{
 	header,footer{
 		width:92%;
 		margin-left:4%;
-		font-size:32px;
+		font-size:30px;
 	}
 	#read{
 		font-size:1.3em;
@@ -182,6 +182,7 @@ header,footer{
 	#bannerBlock div {
 		font-size:34px;
 		height:27%;
+		min-height:100px
 	}
 }
 @media(min-width:1024px){
