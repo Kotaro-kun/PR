@@ -139,6 +139,9 @@ footer span{
 }
 /*Оптимизация*/
 @media(min-width:576px){
+	header{
+		min-height:100px;
+	}
 header,footer{
 		width:92%;
 		margin-left:4%;
@@ -158,6 +161,10 @@ header,footer{
 		height:27%;
 	}}
 @media(min-width:728px){
+	
+	header{
+		min-height:130px;
+	}
 	header,footer{
 		width:92%;
 		margin-left:4%;
@@ -173,11 +180,14 @@ header,footer{
 		margin-left:4%;
 	}
 	#bannerBlock div {
-		font-size:29px;
+		font-size:34px;
 		height:27%;
 	}
 }
 @media(min-width:1024px){
+	header{
+	min-height:200px;
+	}
 	header,footer{
 		width:92%;
 		margin-left:4%;
